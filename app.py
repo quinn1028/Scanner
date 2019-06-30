@@ -1,8 +1,11 @@
+#!/usr/bin/env python
+
 import threading
 from flask import Flask, send_from_directory, jsonify
 import scan
 
-scan_thread = threading.Thread(target=scan.scan, daemon=True)
+scan_thread = threading.Thread(target=scan.scan)
+scan_thread.daemon = True
 scan_thread.start()
 
 app = Flask(__name__)
@@ -17,6 +20,10 @@ def house(path):
 
 @app.route("/users", methods=['GET'])
 def users():
-    return jsonify(scan.macs_home)
+    serializable_macs = scan.macs_home.copy()
+    for mac in serializable_macs:
+        if 'led' in serializable_macs:
+            del serializeable_macs['led']
+    return jsonify(serializable_macs)
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=80)
