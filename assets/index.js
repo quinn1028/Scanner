@@ -11,7 +11,7 @@ $.getJSON( "/users", { rand: Date.now() }, function( data ) {
         //
         if(data[userMac].connected){
 	    hasUser = true;
-            $('body').append('<p>' + data[userMac].name + '</p>');
+            $('body').append('<p class="nametag">' + data[userMac].name + '</p>');
         }
     })
 
