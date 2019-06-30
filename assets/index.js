@@ -15,7 +15,7 @@ $.getJSON( "/users", { rand: Date.now() }, function( data ) {
         }
     })
 
-    if (hasUser) {
+    if (!hasUser) {
         $('body').append('<p class="nametag">No users were found.</p>');
     }
 });
