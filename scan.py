@@ -3,10 +3,12 @@
 import nmap
 import time
 import json
+import traceback
 
 try:
     from gpiozero import LED
 except:
+    traceback.print_exc()
     print('Unable to import LED')
 
 timeout = 180 #3 minutes
@@ -24,7 +26,9 @@ def init():
 # Run init
 try:
     init()
+    print('GPIO pins initialized')
 except:
+    traceback.print_exc()
     print('Unable to initialize GPIO pins; skipping.')
 
 def scan():
@@ -43,6 +47,7 @@ def scan():
                     try:
                         macs_home[found_mac]['led'].on()
                     except:
+                        traceback.print_exc()
                         print('Unable to change LED')
 
         print('EOF')
@@ -54,5 +59,6 @@ def scan():
                 try:
                     macs_home[ip]['led'].off()
                 except:
+                    traceback.print_exc()
                     print('Unable to change LED')
     

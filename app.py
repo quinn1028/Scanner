@@ -20,10 +20,16 @@ def house(path):
 
 @app.route("/users", methods=['GET'])
 def users():
-    serializable_macs = dict(scan.macs_home)
-    for mac in serializable_macs:
-        if 'led' in serializable_macs[mac]:
-            del serializable_macs[mac]['led']
+    serializable_macs = {}
+    for mac in scan.macs_home:
+        serializable_macs[mac] = {
+                'GPIO_pin': scan.macs_home[mac]['GPIO_pin'],
+                'connected': scan.macs_home[mac]['connected'] if 'connected' in scan.macs_home[mac] else False,
+                'house': scan.macs_home[mac]['house'],
+                'last_seen': scan.macs_home[mac]['last_seen'],
+                'name': scan.macs_home[mac]['name'],
+        }
+
     return jsonify(serializable_macs)
 
 if __name__ == "__main__":
