@@ -1,41 +1,39 @@
-{
-  "8C:45:00:31:43:E3": {
-      "name": "Quinn", 
+{ "D0:40:EF:B6:4E:17": { "name": "Quinn", 
       "last_seen": 0,
       "GPIO_pin": 17,
       "house": "assets/ravenclaw.jpg" 
   },
-  "64:A2:F9:E4:1B:BA": {
+  "D6:5D:F2:3A:AC:37": {
       "name": "Jonathan",
       "last_seen": 0,
       "GPIO_pin": 18,
       "house": "assets/ravenclaw.jpg" 
   },
-  "88:B4:A6:85:4E:4A": {
+  "C2:5C:35:4B:FC:B3": {
       "name": "Jordan",
       "last_seen": 0,
       "GPIO_pin": 23,
       "house": "assets/ravenclaw.jpg" 
   },
-  "00:57:C1:FF:62:60":{
+  "5C:17:CF:BF:43:49":{
       "name": "Matthew",
       "last_seen": 0,
       "GPIO_pin": 22,
       "house": "assets/ravenclaw.jpg" 
   },
-  "A8:BE:27:B1:F7:64":{
+  "1E:1E:4C:59:8E:BC":{
       "name": "Makala",
       "last_seen": 0,
-      "GPIO_pin": 25,
+      "GPIO_pin": 7,
       "house": "assets/ravenclaw.jpg" 
   },
-  "B8:41:A4:58:91:48":{
+  "B8:2A:A9:D6:E4:F8":{
       "name": "Thomas",
       "last_seen": 0,
       "GPIO_pin": 26,
       "house": "assets/ravenclaw.jpg" 
   },
-  "40:4E:36:8D:B7:05":{
+  "58:24:29:4E:CB:61":{
       "name": "Courtney",
       "last_seen": 0,
       "GPIO_pin": 21,
@@ -49,41 +47,35 @@
   },
   "48:BF:6B:7F:25:F4":{
       "name": "Mirielle",
-	  "last_seen": 0,
+      "last_seen": 0,
       "GPIO_pin": 19,
       "house": "assets/ravenclaw.jpg" 
   },
-  "44:80:EB:76:5B:74":{
+  "68:EF:43:34:2B:FC":{
+  	"name": "Alex",
+	"last_seen": 0,
+	"GPIO_pin": 27,
+	"house": "assets/ravenclaw.jpg"
+},
+  "D0:40:EF:94:70:67":{
       "name": "Ben",
 	"last_seen": 0,
       "GPIO_pin": 16,
       "house": "assets/ravenclaw.jpg" 
   },
-  "FC:DB:B3:D5:8C:AF":{
+  "98:B8:BA:17:A0:84":{
       "name": "Sonja",
       "last_seen": 0,
       "GPIO_pin": 13,
       "house": "assets/ravenclaw.jpg" 
   },
-  "D4:61:DA:1C:F9:8D":{
-      "name": "Karolyn",
-      "last_seen": 0,
-      "GPIO_pin": 6,
-      "house": "assets/ravenclaw.jpg" 
-  },
-  "A0:CC:2B:11:3D:25": {
+  "14:D1:9E:96:B2:DD": {
       "name": "Maggie", 
       "last_seen": 0,
       "GPIO_pin": 5,
-      "house": "assets/ravenclaw.jpg" 
+      "house": "assets/ravenclaw.jpg"  
   },
-  "00:00:00:00:00:00": {
-      "name": "Alyssa", 
-      "last_seen": 0,
-      "GPIO_pin": 11,
-      "house": "assets/ravenclaw.jpg" 
-  },
-    "90:C7:D8:AB:71:7A": {
+    "06:BD:E7:D0:3C:B8": {
       "name": "Courts", 
       "last_seen": 0,
       "GPIO_pin": 24,
@@ -92,7 +84,31 @@
   "FC:18:3C:6D:92:21": {
       "name": "Lexie",
       "last_seen": 0,
-      "GPIO_pin": 0,
+      "GPIO_pin": 10,
       "house": "assets/ravenclaw.jpg" 
-  }
-}
+  },
+  "36:6E:FA:E6:E8:FA": {
+      "name": "Kimber",
+      "last_seen": 0,
+      "GPIO_pin": 25,
+      "house": "assets/ravenclaw.jpg"
+  },
+  "EE:3C:17:60:68:8B": {
+      "name": "Danny",
+      "last_seen": 0,
+      "GPIO_pin": 9,
+      "house": "assets/ravenclaw.jpg"
+  },
+  "98:29:A6:D2:5B:J1": {
+	"name": "KimberLys",
+	"last_seen": 0,
+	"GPIO_pin": 6,
+	"house": "assets/ravenclaw.jpg"
+  },
+"78:64:C0:31:5F:53": {
+      "name": "Kristen",
+      "last_seen": 0,
+      "GPIO_pin": 12,
+      "house": "assets/ravenclaw.jpg"
+  }	
+}	
